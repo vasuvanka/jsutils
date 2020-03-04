@@ -1,5 +1,5 @@
 {
-  "name": "jsutils",
+  "name": "@vasuvanka/jsutils",
   "version": "0.0.1",
   "description": "javascript util functions",
   "main": "index.js",
@@ -17,9 +17,11 @@
   "author": "Vasu Vanka <vanka.vasu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vasuvanka/jsutils"
+    "url": "https://github.com/vasuvanka/jsutils/issues"
   },
   "homepage": "https://github.com/vasuvanka/jsutils#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "jest":"*"
+  }
 }
