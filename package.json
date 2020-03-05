@@ -22,6 +22,6 @@
   "homepage": "https://github.com/vasuvanka/jsutils#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest":"*"
+    "jest": "*"
   }
 }

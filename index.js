@@ -1,3 +1,8 @@
 module.exports = {
-  count : (list)=>((list || []).length || 0 )
+  list_count : (list)=> {
+    if (!Array.isArray(list)){
+      throw new Error(`${list} is not an array but found ${typeof list}`)
+    }
+    return (list || []).length || 0 
+  }
 }
