@@ -1,6 +1,6 @@
 {
   "name": "@vasuvanka/jsutils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript util functions",
   "main": "index.js",
   "scripts": {
