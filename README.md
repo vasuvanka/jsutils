@@ -1,6 +1,10 @@
 # jsutils
 
-Utility functions for javascript programming.this package provides list of implementations
+Utility functions for javascript programming.this package provides list of implementations.
+
+# Documentation
+
+  - [![Git docs Here](https://vasuvanka.github.io/jsutils/)](https://vasuvanka.github.io/jsutils/)
 
 ### Search Algorithms
   - Binary Search
