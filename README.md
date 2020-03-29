@@ -1,4 +1,38 @@
 # jsutils
-Reusable Javascript util functions
 
-list_count : will respond with count of elements in an array or zero
+Utility functions for javascript programming.this package provides list of implementations
+
+### Search Algorithms
+  - Binary Search
+  - Linear Search
+  - Jump Search
+### Sorting Algorithms
+  - Bubble Sort
+  - Merge Sort
+  - Quick Sort
+### Other implementations
+  - Linked List with added functions
+ 
+### Installation
+
+jsutils requires [Node.js](https://nodejs.org/) v9+ to run.
+
+Install jsutils
+
+```sh
+$ npm install -S @vasuvanka/jstuils
+```
+
+### Contributions
+
+ - Write MORE Tests
+ - Log issue or feature on Github
+ - Give PR
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**

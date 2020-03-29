@@ -1,17 +1,20 @@
 /**
  * @class LinkedList
  * @description
- * LinkedList is a data structure
+ * Linked lists are among the simplest and most common data structures. They can be used to implement several other common abstract data types, including lists, stacks, queues, associative arrays, and S-expressions, though it is not uncommon to implement those data structures directly without using a linked list as the basis.
+ * The principal benefit of a linked list over a conventional array is that the list elements can be easily inserted or removed without reallocation or reorganization of the entire structure because the data items need not be stored contiguously in memory or on disk, while restructuring an array at run-time is a much more expensive operation. Linked lists allow insertion and removal of nodes at any point in the list, and allow doing so with a constant number of operations by keeping the link previous to the link being added or removed in memory during list traversal.
  */
 export declare class LinkedList<T> {
     private head;
-    private temp;
+    /**
+     * Will return LinkedList instance
+     */
     constructor();
     /**
      * @method
-     * @param value - Value that will store in linkedlist
+     * @param value - Value that will store in linkedlist node
      * @description
-     * add method will take value as argument and store in linkedlist
+     * add method will take value as argument and store in linkedlist node
      */
     add<T>(value: T): void;
     /**
