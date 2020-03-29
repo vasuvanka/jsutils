@@ -1,17 +1,24 @@
 {
   "name": "@vasuvanka/jsutils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "javascript util functions",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/src/**/!(*.spec).js",
+    "dist/src/**/!(*.spec).d.ts",
+    "dist/index.*"
+  ],
   "scripts": {
-    "test": "jest"
+    "start": "tsc",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vasuvanka/jsutils.git"
   },
   "keywords": [
-    "utils",
+    "util functions",
     "js utils"
   ],
   "author": "Vasu Vanka <vanka.vasu@gmail.com>",
@@ -22,6 +29,13 @@
   "homepage": "https://github.com/vasuvanka/jsutils#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest": "*"
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.12.31",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node":">=9.0.0"
   }
 }
