@@ -6,6 +6,9 @@ Utility functions for javascript programming.this package provides list of imple
 
   - [![Git docs Here](https://vasuvanka.github.io/jsutils/)](https://vasuvanka.github.io/jsutils/)
 
+### Utility Functions
+  - type finder
+
 ### Search Algorithms
   - Binary Search
   - Linear Search
