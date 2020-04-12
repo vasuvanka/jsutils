@@ -7,6 +7,16 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<script>
+      		sessionStorage.redirect = location.href;
+		  (function(){
+		    var redirect = sessionStorage.redirect;
+		    delete sessionStorage.redirect;
+		    if (redirect && redirect != location.href) {
+		      history.replaceState(null, null, redirect);
+		    }
+		  })();
+    	</script>
 </head>
 <body>
 <header>
